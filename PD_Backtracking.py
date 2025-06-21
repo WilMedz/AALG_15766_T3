@@ -88,8 +88,8 @@ camino_solucion, puntaje_total = resolver_laberinto(laberinto, posicion_inicio, 
 
 
 if camino_solucion:
-    print(f"\n¡Camino encontrado con puntaje de {puntaje_total}!")
-    print("Laberinto camino solución:")
+    print(f"Camino encontrado con puntaje de {puntaje_total}!")
+    print("Lab camino solución:")
     impr_laberinto(laberinto, set(camino_solucion))
     
 else:
